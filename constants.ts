@@ -8,7 +8,7 @@ export const NAV_ITEMS: NavItem[] = [
   { label: "오시는 길", path: "/location" },
 ];
 export const SEO_DEFAULTS: SeoData = {
-  title: "자비심선원 | 마음법으로 삶의 흐름을 전환하는 곳",
+  title: "자비심선원 | 마음법 · 법회 안내 · 마음공부",
   description:
     "자비심선원은 구로자비부처님께서 내려주신 마음법을 배우는 곳입니다. 보이지 않는 차원을 알고, 삶을 움직이는 기운의 흐름을 전환하는 공부를 합니다.",
   keywords:
