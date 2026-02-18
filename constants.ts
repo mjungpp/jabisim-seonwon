@@ -1,4 +1,4 @@
-import { NavItem, ProgramItem, SeoData } from "./types";
+import { NavItem, ProgramItem, SeoData, ContactInfo } from "./types";
 
 export const NAV_ITEMS: NavItem[] = [
   { label: "소개", path: "/about" },
@@ -7,6 +7,10 @@ export const NAV_ITEMS: NavItem[] = [
   { label: "자주 묻는 질문", path: "/faq" },
   { label: "오시는 길", path: "/location" },
 ];
+export const CONTACT_INFO: ContactInfo = {
+  address: "경기도 오산시 오산로 368번길 25, 2층",
+};
+
 export const SEO_DEFAULTS: SeoData = {
   title: "자비심선원 | 마음법 · 법회 안내 · 마음공부",
   description:
