@@ -18,7 +18,7 @@ const Home: React.FC = () => {
             initial={{ scale: 1.05 }}
             animate={{ scale: 1.0 }}
             transition={{ duration: 2.0, ease: 'easeOut' }}
-            src="/main.jpeg"
+            src={`${import.meta.env.BASE_URL}main.jpeg`}
             alt="자비심선원 배경"
             className="w-full h-full object-cover opacity-[0.85]"
           />

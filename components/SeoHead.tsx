@@ -17,7 +17,7 @@ const SeoHead: React.FC<SeoHeadProps> = ({ title, description, keywords }) => {
     "@type": "ReligiousOrganization",
     "name": "자비심선원",
     "url": "https://mjungpp.github.io/jabisim-seonwon",
-    "logo": "https://mjungpp.github.io/jabisim-seonwon/main.jpeg",
+    "logo": `https://mjungpp.github.io/jabisim-seonwon/main.jpeg`,
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "오산로 368번길 25, 2층",
