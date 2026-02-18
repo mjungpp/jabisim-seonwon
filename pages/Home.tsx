@@ -18,7 +18,7 @@ const Home: React.FC = () => {
             initial={{ scale: 1.05 }}
             animate={{ scale: 1.0 }}
             transition={{ duration: 2.0, ease: 'easeOut' }}
-            src="https://postfiles.pstatic.net/MjAyNjAyMThfODAg/MDAxNzcxMzkyMzU5MjM4.jaUfnsE2skWdXOndnXukuTBHo1QrygFs_5nz_CJX1hEg.xayIHL2hL3YfBt0hDT8b42doG2glFTmqI8B_McSmKZ0g.JPEG/Lets_place_the_4k_202602181421.jpeg?type=w3840"
+            src="/main.jpeg"
             alt="자비심선원 배경"
             className="w-full h-full object-cover opacity-[0.85]"
           />
