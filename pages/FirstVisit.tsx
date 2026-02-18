@@ -168,7 +168,7 @@ const FirstVisit: React.FC = () => {
                     <Clock size={24} />
                   </div>
                   <h2 className="text-xl font-bold text-main-text">
-                    3. 법회 이용 안내
+                    3. 법회 진행 안내
                   </h2>
                 </div>
 
@@ -181,7 +181,7 @@ const FirstVisit: React.FC = () => {
                       />
                       <div>
                         <strong className="block text-main-text text-sm mb-1">
-                          법회 진행 시간 시간
+                          법회 진행 시간
                         </strong>
                         <p className="text-sm text-main-textLight">
                           약 1시간 30분 ~ 2시간 30분 소요됩니다.
