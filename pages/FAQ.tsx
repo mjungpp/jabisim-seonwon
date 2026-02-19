@@ -126,8 +126,8 @@ const MIND_LAW_FAQ_DATA: FaqItem[] = [
             정화하고,
           </li>
           <li>
-            <strong>공부 법회</strong>(심진 선생님 주관): 이치를 배우고 현실
-            적용법을 익힙니다.
+            <strong>공부 법회</strong>(심진 선생님 주관): 마음법을 배우고
+            현실에서 마음법을 적용하는 법을 익힙니다.
           </li>
         </ul>
         <p>
