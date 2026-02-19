@@ -1,51 +1,48 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ko">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>자비심선원 | 마음법 · 법회 안내 · 마음공부</title>
+    <title>자비심선원 | 열린 수행 공동체</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&family=Noto+Serif+KR:wght@300;400;500;600&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&family=Noto+Serif+KR:wght@300;400;500;600&display=swap" rel="stylesheet">
     <script>
       tailwind.config = {
         theme: {
           extend: {
             colors: {
               main: {
-                bg: "#FBF8F3", // Light Warm Ivory (밝고 따뜻한 아이보리)
-                bgAlt: "#F6F2EA", // Deep Ivory (차분한 배경)
-                section: "#F4EFE6", // Soft Beige Section
-                sectionAlt: "#EBE5DB", // Muted Beige
-                point: "#CBB48A", // Champagne Gold (은은한 샴페인, 카키/황토 제거)
-                pointDeep: "#A89068", // Deep Champagne (무게감 있는 골드)
-                button: "#E8DCC8", // Soft Beige Button Base (부드러운 베이지)
-                buttonHover: "#D6C3A1", // Champagne Hover
-                text: "#3A2F2A", // Deep Warm Brown (진한 브라운, 블랙 대체)
-                textLight: "#786C65", // Muted Brown (회갈색)
-                border: "#E6DFCF", // Soft Border
+                bg: '#FBF8F3', // Light Warm Ivory (밝고 따뜻한 아이보리)
+                bgAlt: '#F6F2EA', // Deep Ivory (차분한 배경)
+                section: '#F4EFE6', // Soft Beige Section
+                sectionAlt: '#EBE5DB', // Muted Beige
+                point: '#CBB48A', // Champagne Gold (은은한 샴페인, 카키/황토 제거)
+                pointDeep: '#A89068', // Deep Champagne (무게감 있는 골드)
+                button: '#E8DCC8', // Soft Beige Button Base (부드러운 베이지)
+                buttonHover: '#D6C3A1', // Champagne Hover
+                text: '#3A2F2A', // Deep Warm Brown (진한 브라운, 블랙 대체)
+                textLight: '#786C65', // Muted Brown (회갈색)
+                border: '#E6DFCF', // Soft Border
               },
             },
             fontFamily: {
-              sans: ['"Noto Sans KR"', "sans-serif"],
-              serif: ['"Noto Serif KR"', "serif"],
+              sans: ['"Noto Sans KR"', 'sans-serif'],
+              serif: ['"Noto Serif KR"', 'serif'],
             },
             boxShadow: {
-              warm: "0 10px 30px -10px rgba(168, 144, 104, 0.15)", // 샴페인 골드 톤의 은은한 그림자
-              gold: "0 4px 20px -4px rgba(203, 180, 138, 0.25)", // 빛이 퍼지는 느낌
-            },
+              'warm': '0 10px 30px -10px rgba(168, 144, 104, 0.15)', // 샴페인 골드 톤의 은은한 그림자
+              'gold': '0 4px 20px -4px rgba(203, 180, 138, 0.25)', // 빛이 퍼지는 느낌
+            }
           },
         },
-      };
+      }
     </script>
     <style>
       body {
-        background-color: #fbf8f3;
-        color: #3a2f2a;
+        background-color: #FBF8F3;
+        color: #3A2F2A;
       }
       /* Smooth scrolling */
       html {
@@ -53,13 +50,27 @@
       }
       /* Selection color */
       ::selection {
-        background-color: #e8dcc8;
-        color: #3a2f2a;
+        background-color: #E8DCC8;
+        color: #3A2F2A;
       }
     </style>
-  </head>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@18.3.1",
+    "react-dom/": "https://esm.sh/react-dom@18.3.1/",
+    "react-helmet-async": "https://esm.sh/react-helmet-async@2.0.5?deps=react@18.3.1,react-dom@18.3.1",
+    "react/": "https://esm.sh/react@18.3.1/",
+    "react-router-dom": "https://esm.sh/react-router-dom@6.28.0?deps=react@18.3.1,react-dom@18.3.1",
+    "lucide-react": "https://esm.sh/lucide-react@0.468.0?deps=react@18.3.1",
+    "framer-motion": "https://esm.sh/framer-motion@11.13.1?deps=react@18.3.1,react-dom@18.3.1"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
   <body>
     <div id="root"></div>
-    <script type="module" src="./index.tsx"></script>
-  </body>
+  <script type="module" src="/index.tsx"></script>
+</body>
 </html>
