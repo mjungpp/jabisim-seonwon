@@ -143,8 +143,8 @@ const FirstVisit: React.FC = () => {
                       복장 규정
                     </div>
                     <p className="text-sm text-main-textLight leading-relaxed">
-                      수행과 공부를 하는 자리이므로 <strong>단정한 복장</strong>
-                      을 권장합니다.
+                      공부를 하는 자리이므로 <strong>단정한 복장</strong>을
+                      권장합니다.
                     </p>
                     <div className="flex flex-wrap gap-2 mt-2">
                       <span className="px-2.5 py-1 bg-gray-100 text-gray-600 text-xs rounded-full">
