@@ -21,6 +21,10 @@ export interface SeoData {
   keywords: string;
 }
 
+export interface ContactInfo {
+  address: string;
+}
+
 export enum TransportType {
   SUBWAY = '지하철',
   BUS = '버스',

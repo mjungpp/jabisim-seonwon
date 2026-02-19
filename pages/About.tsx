@@ -41,7 +41,7 @@ const About: React.FC = () => {
               initial={{ scale: 1.1 }}
               animate={{ scale: 1.0 }}
               transition={{ duration: 2.0, ease: 'easeOut' }}
-              src="https://postfiles.pstatic.net/MjAyNjAyMThfMTAg/MDAxNzcxMzk4MzkwNDM4.7pSeqDLp5P8bRDTpbc2ftZfnJ2rQL0u1A84O2NAU9QQg.gbZrTU8UNt6oU41A5gj7oqvTvNa8D5aZGEz_xMEcDDwg.JPEG/Fill_in_the_4k_202602181606.jpeg?type=w3840"
+              src={`${import.meta.env.BASE_URL}info.jpeg`}
               alt="자비심선원 소개 배경"
               className="w-full h-full object-cover"
             />

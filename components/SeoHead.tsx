@@ -10,14 +10,14 @@ interface SeoHeadProps {
 
 const SeoHead: React.FC<SeoHeadProps> = ({ title, description, keywords }) => {
   const location = useLocation();
-  const currentUrl = `https://jabisim.org${location.pathname}`; // Example URL
+  const currentUrl = `https://mjungpp.github.io/jabisim-seonwon${location.pathname}`;
 
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "ReligiousOrganization",
     "name": "자비심선원",
-    "url": "https://jabisim.org",
-    "logo": "https://jabisim.org/logo.png",
+    "url": "https://mjungpp.github.io/jabisim-seonwon",
+    "logo": `https://mjungpp.github.io/jabisim-seonwon/main.jpeg`,
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "오산로 368번길 25, 2층",
